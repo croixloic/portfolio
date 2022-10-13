@@ -41,7 +41,7 @@ export default function index() {
             />
             <p className={styles.description}>L&apos;objectif de &quot;the cook&quot; est de permettre aux restaurateurs
           d&apos;avoir une vitrine présentant leurs restaurants et également d&apos;y
-          inclure leurs menus. les visiteurs peuvent s&apos;inscrire et mettre une réaction que restaurant qu&apos;ils ont préféré</p>
+          inclure leurs menus. les visiteurs peuvent s&apos;inscrire et mettre une réaction aux restaurants qu&apos;ils ont préféré</p>
             <span>projet React.js/Mysql</span>
             <div className={styles.btn}>
               <a className={styles.link1} href='https://github.com/croixloic/the-cook' target='blank'>Code</a>
