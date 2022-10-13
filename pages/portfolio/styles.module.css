@@ -1,0 +1,44 @@
+.portfolio {
+  margin: 200px 15% 0 15%;
+}
+
+.p1 {
+  font-size: 2rem;
+  letter-spacing: 0.1em;
+  color: #5651e5;
+}
+.portfolio p {
+  font-size: 1.5rem;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.content {
+    width: 45%;
+    margin: 0 15px 20px 15px;
+    padding: 20px;
+    background:  rgb(94, 92, 92);
+}
+.description {
+    font-size: 1rem;
+    color: white;
+}
+.content span {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+.btn {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+.link1 {
+    border: 1px solid black;
+    background-image: linear-gradient(to right, #5651e5, #709dff);
+    padding: 10px 20px;
+    border-radius: 0.75rem;
+    color: white;
+    font-size: 22px;
+}

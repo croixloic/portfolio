@@ -1,0 +1,95 @@
+.header {
+    text-align: center;
+    margin: 8rem 25%;
+}
+.header h1 {
+    font-size: 4rem;
+}
+.header p {
+    font-size: 2rem;
+}
+.listLink {
+    display: flex;
+    justify-content: center;
+}
+.link {
+    font-size: 40px ;
+    border: 1px solid black;
+    padding: 15px 20px;
+    background: #f1f1f1;
+    margin: 0 12%;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.link:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 15px -3px rgb(94, 92, 92)  ;
+    background: #f7f7f7;
+} 
+.propos {
+    margin: 30px 20%;
+
+}
+.propos {
+    font-size: 1.5rem;
+}
+.p1 {
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+    color: #5651e5;
+}
+.competences {
+    margin: 30px 20%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.competence {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 0 15px 20px -5px rgb(94, 92, 92);
+    border-radius: 5%;
+    padding: 1rem;
+    margin: 15px  25px;
+    width: 25%;
+    min-width: 200px;
+    transition: 0.5s;
+}
+.competence:hover {
+    transform: scale(1.1);
+    box-shadow: 0 20px 25px -5px rgb(94, 92, 92);
+}
+
+.competence p{
+font-size: 1.5rem;
+margin-left: 20px;
+}
+.competenceimg {
+    width: 100px;
+    
+}
+.portfolio {
+    margin: 30px 20%;
+}
+.portfolio p {
+    font-size: 1.5rem;
+}
+.button {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 250px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    margin: 15px 35%;
+    transition: 0.5s;
+    box-shadow: 0 15px 20px -5px rgb(94, 92, 92);
+}
+.button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 20px 25px -5px rgb(94, 92, 92);
+    background: #f7f7f7;
+    color: red;
+}

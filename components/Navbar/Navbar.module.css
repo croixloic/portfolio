@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2.5rem ;
+    border-bottom:1px solid black;
+    box-shadow: 4px 4px 11px 0 gray;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    background: #ecf0f3;
+}
+
+.img {
+    width: 5%;
+    position: relative;
+}
+
+.navbar {
+    margin: 0.75rem ;
+    transition: 0.250 ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.link a {
+    padding-right: 20px ;
+    font-size: 1.5rem;
+    position: relative;
+}
+.link a::after{
+    content: "";
+    position: absolute;
+    width: 85%;
+    height: 1px;
+    bottom: -4px;
+    background: black ;
+    left: 0;
+    transform-origin: left;
+}
+.link a:hover {
+    transform: scale(1.5);
+}
+.link a:hover::after{
+    animation: animLink 1.5s infinite ease-in-out;
+}
+@keyframes animLink {
+    50% {
+      transform: scaleX(0.2);
+    }
+    100% {
+      transform: scaleX(1);
+    }
+  }
