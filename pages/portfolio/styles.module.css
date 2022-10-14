@@ -42,3 +42,9 @@
     color: white;
     font-size: 22px;
 }
+
+@media (max-width: 856px) {
+.content {
+  width: 100%;
+}
+}
