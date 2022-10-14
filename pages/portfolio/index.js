@@ -23,7 +23,7 @@ export default function index() {
             height="757"
           />
           <p className={styles.description}>
-            L&apos;objectif de &quot;Tourisme en Avesnois&quot; de faire
+            L&apos;objectif de &quot;Tourisme en Avesnois&quot; est de faire
             connaître au grand public l&apos;actualité et la mise en valeur de
             l&apos;Avesnois.
           </p>
